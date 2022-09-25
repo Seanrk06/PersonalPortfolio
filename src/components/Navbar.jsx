@@ -4,9 +4,9 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "About", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "About", href: "/about", current: false },
+  { name: "Projects", href: "/projects", current: false },
 ];
 
 function classNames(...classes) {
@@ -15,12 +15,12 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <div className="justify-center flex content-center mt-5">
-      <Disclosure as="nav" className="bg-outlineGray rounded-3xl w-96 flex align-center">
+    <div className="justify-center flex content-center mt-5 ">
+      <Disclosure as="nav" className="bg-darkCustomGrey rounded-3xl w-96 flex align-center outline-outlineGray outline">
         {({ open }) => (
           <>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-              <div className="relative flex h-16 items-center justify-between">
+              <div className="relative flex h-11 items-center justify-between">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
                   <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -53,8 +53,8 @@ export default function Navbar() {
                           href={item.href}
                           className={classNames(
                             item.current
-                              ? "bg-gray-900 text-white"
-                              : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                              ? "text-customTeal"
+                              : "text-gray-300 hover:text-lighCustomTeal",
                             "px-3 py-2 rounded-md text-sm font-medium"
                           )}
                           aria-current={item.current ? "page" : undefined}
@@ -77,8 +77,8 @@ export default function Navbar() {
                     href={item.href}
                     className={classNames(
                       item.current
-                        ? "bg-gray-900 text-white"
-                        : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        ? "text-white"
+                        : "text-gray-300 hover:text-lighCustomTeal",
                       "block px-3 py-2 rounded-md text-base font-medium"
                     )}
                     aria-current={item.current ? "page" : undefined}

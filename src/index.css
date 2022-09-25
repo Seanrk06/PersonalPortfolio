@@ -5,3 +5,27 @@
 body {
     background-color: black;
 }
+
+
+#Header::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+#Header:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#Header::before {
+  content: " ";
+  display: block;
+  position: absolute;
+
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+
