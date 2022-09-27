@@ -3,27 +3,24 @@ import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "About", href: "/about", current: false },
-  { name: "Projects", href: "/projects", current: false },
-];
-
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Navbar() {
+export default function Navbar({ navigation }) {
   return (
-    <div className="justify-center flex content-center mt-5 ">
-      <Disclosure as="nav" className="bg-darkCustomGrey rounded-3xl w-96 flex align-center outline-outlineGray outline">
+    <div className="justify-center flex content-center relative top-5">
+      <Disclosure
+        as="nav"
+        className="lg:bg-darkCustomGrey md:bg-darkCustomGrey rounded-3xl w-96 flex align-center outline-outlineGray lg:outline md:outline sm:bg-none"
+      >
         {({ open }) => (
           <>
-            <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-              <div className="relative flex h-11 items-center justify-between">
+            <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
+              <div className="relative flex h-11 items-center justify-between ">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <Disclosure.Button className="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -54,7 +51,7 @@ export default function Navbar() {
                           className={classNames(
                             item.current
                               ? "text-customTeal"
-                              : "text-gray-300 hover:text-lighCustomTeal",
+                              : "text-gray-300 hover:text-teal-400",
                             "px-3 py-2 rounded-md text-sm font-medium"
                           )}
                           aria-current={item.current ? "page" : undefined}

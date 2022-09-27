@@ -28,4 +28,13 @@ body {
   transition: transform .3s ease;
 }
 
+.button_slide {
+  box-shadow: inset 0 0 0 0 #57e2e9;
+  transition: ease-out 0.7s;
+}
 
+.slide_right:hover {
+  box-shadow: inset 600px 0 0 0 #57e2e9;
+  color: black;
+  outline: black;
+}

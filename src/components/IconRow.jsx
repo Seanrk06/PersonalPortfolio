@@ -18,7 +18,7 @@ function IconRow() {
     //   },
       {
         name: "Instagram",
-        href: "#",
+        href: "https://instagram.com/seanrk06",
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
@@ -40,7 +40,7 @@ function IconRow() {
     //   },
       {
         name: "GitHub",
-        href: "#",
+        href: "https://github.com/Seanrk06",
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
@@ -53,7 +53,7 @@ function IconRow() {
       },
       {
         name: "Linkdn",
-        href: "#",
+        href: "https://www.linkedin.com/in/sean-klein-b98157235/",
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
@@ -64,6 +64,14 @@ function IconRow() {
           </svg>
         ),
       },
+      {
+        name: "Devpost",
+        href: "https://devpost.com/Seanrk06",
+        icon: (props) => (
+          <img className="h-6 w-6" src="./assets/Icons/devpost.png" alt="" />
+        ),
+      },
+      
     ],
   };
   return (
