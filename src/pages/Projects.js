@@ -16,7 +16,7 @@ function Projects() {
         <Navbar navigation={navigation} />
         <Title
           heading="My Projects"
-          body="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+          body="I have worked on lots of different projects and websites since I began learning in 2020 and below are just a few of them. Feel free to click on them and go to the webpage or the competition submission they're associated with. If inclined, please visit the source code, I am always open to improvments."
         />
         <Gallary />
         <Footer />
