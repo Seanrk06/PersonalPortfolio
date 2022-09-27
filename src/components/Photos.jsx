@@ -1,8 +1,5 @@
-import { useState } from "react";
-import { Dialog } from "@headlessui/react";
 
 function Photos() {
-  let [isOpen, setIsOpen] = useState(true);
   return (
     <div className="mt-10 ">
       <div className=" -my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">

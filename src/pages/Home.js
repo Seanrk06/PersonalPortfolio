@@ -1,12 +1,8 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import Typewriter from "typewriter-effect";
 import Header from "../components/Header";
 import Photos from "../components/Photos";
-import About from "../components/About";
-import Projects from "../components/Projects";
-import Gallary from "../components/Gallary";
 import Work from "../components/Work";
 import Contact from "../components/Contact";
 

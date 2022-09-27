@@ -1,10 +1,3 @@
-import { useState } from 'react'
-import { Switch } from '@headlessui/react'
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
-
 export default function Contact() {
   return (
     <div className="overflow-hidden py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
