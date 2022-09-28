@@ -34,7 +34,8 @@ body {
 }
 
 .slide_right:hover {
-  box-shadow: inset 600px 0 0 0 #57e2e9;
+  box-shadow: inset 800px 0 0 0 #57e2e9;
   color: black;
   outline: black;
+  z-index: 100;
 }

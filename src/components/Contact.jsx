@@ -1,22 +1,68 @@
+// import mongoose from "mongoose";
+// import axios from "axios";
+// import { useEffect } from "react";
+import { useState } from "react";
+
+// mongoose.connect(
+//   `mongodb+srv://${process.env.USER}:${process.env.PASS}@${URL}`,
+//   { useNewUrlParser: true },
+//   function (err) {
+//     if (err) throw err;
+
+//     console.log("Successfully connected");
+//   }
+// );
+
+// var Form = mongoose.Schema({
+//   fname: String,
+//   lname: String,
+//   email: String,
+//   message: String,
+// });
+
+// var Data = mongoose.model("Data", Form);
+
+// useEffect(() => {
+//   axios.get(url).then((res) => {
+//     setCountries(res.data.countries);
+//   });
+// }, []);
+
 export default function Contact() {
+  const [FName, setFirstName] = useState("");
+  const [LName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <div className="overflow-hidden py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
       <div className="relative mx-auto max-w-xl">
         <div className="text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Contact Me</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            Contact Me
+          </h2>
           <p className="mt-4 text-lg leading-6 text-gray-500">
             I would love to hear from you, lets stay in touch.
           </p>
         </div>
         <div className="mt-12">
-          <form action="#" method="POST" className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+          <form
+            action="#"
+            method="POST"
+            className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+          >
             <div>
-              <label htmlFor="first-name" className="block text-sm font-medium text-white">
+              <label
+                htmlFor="first-name"
+                className="block text-sm font-medium text-white"
+              >
                 First name
               </label>
               <div className="mt-1">
                 <input
                   type="text"
+                  value={FName}
+                  onChange={(e) => setFirstName(e.target.value)}
                   name="first-name"
                   id="first-name"
                   autoComplete="given-name"
@@ -25,11 +71,16 @@ export default function Contact() {
               </div>
             </div>
             <div>
-              <label htmlFor="last-name" className="block text-sm font-medium text-white">
+              <label
+                htmlFor="last-name"
+                className="block text-sm font-medium text-white"
+              >
                 Last name
               </label>
               <div className="mt-1">
                 <input
+                value={FName}
+                onChange={(e) => setFirstName(e.target.value)}
                   type="text"
                   name="last-name"
                   id="last-name"
@@ -39,7 +90,10 @@ export default function Contact() {
               </div>
             </div>
             <div className="sm:col-span-2">
-              <label htmlFor="email" className="block text-sm font-medium text-white">
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-white"
+              >
                 Email
               </label>
               <div className="mt-1">
@@ -53,7 +107,10 @@ export default function Contact() {
               </div>
             </div>
             <div className="sm:col-span-2">
-              <label htmlFor="message" className="block text-sm font-medium text-white">
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-white"
+              >
                 Message
               </label>
               <div className="mt-1">
@@ -62,7 +119,7 @@ export default function Contact() {
                   name="message"
                   rows={4}
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-teal-500 focus:ring-teal-500"
-                  defaultValue={''}
+                  defaultValue={""}
                 />
               </div>
             </div>
@@ -78,5 +135,5 @@ export default function Contact() {
         </div>
       </div>
     </div>
-  )
+  );
 }

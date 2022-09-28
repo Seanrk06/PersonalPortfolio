@@ -14,7 +14,7 @@ function Work() {
             <li className='text-2xl text-white text-semibold text-center mb-5'>Taco Bell Cashier</li>
             <li className='text-2xl text-white text-semibold text-center mb-5'>Busser At a Restaurant</li>
         </ol>
-        <a class="mt-5 inline-flex w-full items-center justify-center rounded-md border border-transparent outline-3 outline py-3 text-base font-medium text-white shadow-sm button_slide  slide_right focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2" href="/#">Download CV<svg viewBox="0 0 16 16" fill="none" aria-hidden="true" class="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50"><path d="M4.75 8.75 8 12.25m0 0 3.25-3.5M8 12.25v-8.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+        <a class="mt-5 inline-flex w-full items-center justify-center rounded-md border border-transparent outline-3 outline py-3 text-base font-medium text-white shadow-sm button_slide slide_right" href="/#">Download CV</a>
 
     </div>
   )
