@@ -13,7 +13,7 @@ function AboutPage() {
     <div className="lg:grid lg:h-fit lg:place-items-center">
       <div className="lg:w-3/4 bg-customGray outline-outlineGray outline">
         <Navbar navigation={navigation} />
-        <Title heading="Hello" body="body" />
+        <Title heading="I'm Sean Klein a high school student in Pennylvania. Below I have described my journey up to this point." body="body" />
         <Footer />
       </div>
     </div>

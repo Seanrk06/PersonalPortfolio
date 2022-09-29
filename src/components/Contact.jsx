@@ -1,7 +1,7 @@
 // import mongoose from "mongoose";
 // import axios from "axios";
 // import { useEffect } from "react";
-import { useState } from "react";
+// import { useState } from "react";
 
 // mongoose.connect(
 //   `mongodb+srv://${process.env.USER}:${process.env.PASS}@${URL}`,
@@ -29,10 +29,10 @@ import { useState } from "react";
 // }, []);
 
 export default function Contact() {
-  const [FName, setFirstName] = useState("");
-  const [LName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  // const [FName, setFirstName] = useState("");
+  // const [LName, setLastName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [message, setMessage] = useState("");
 
   return (
     <div className="overflow-hidden py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
@@ -61,8 +61,8 @@ export default function Contact() {
               <div className="mt-1">
                 <input
                   type="text"
-                  value={FName}
-                  onChange={(e) => setFirstName(e.target.value)}
+                  // value={FName}
+                  // onChange={(e) => setFirstName(e.target.value)}
                   name="first-name"
                   id="first-name"
                   autoComplete="given-name"
@@ -79,8 +79,8 @@ export default function Contact() {
               </label>
               <div className="mt-1">
                 <input
-                value={FName}
-                onChange={(e) => setFirstName(e.target.value)}
+                // value={FName}
+                // onChange={(e) => setFirstName(e.target.value)}
                   type="text"
                   name="last-name"
                   id="last-name"
