@@ -1,38 +1,12 @@
-// import mongoose from "mongoose";
-// import axios from "axios";
-// import { useEffect } from "react";
-// import { useState } from "react";
-
-// mongoose.connect(
-//   `mongodb+srv://${process.env.USER}:${process.env.PASS}@${URL}`,
-//   { useNewUrlParser: true },
-//   function (err) {
-//     if (err) throw err;
-
-//     console.log("Successfully connected");
-//   }
-// );
-
-// var Form = mongoose.Schema({
-//   fname: String,
-//   lname: String,
-//   email: String,
-//   message: String,
-// });
-
-// var Data = mongoose.model("Data", Form);
-
-// useEffect(() => {
-//   axios.get(url).then((res) => {
-//     setCountries(res.data.countries);
-//   });
-// }, []);
+import { useState} from "react";
 
 export default function Contact() {
-  // const [FName, setFirstName] = useState("");
-  // const [LName, setLastName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [message, setMessage] = useState("");
+  const [FName, setFName] = useState("");
+  const [LName, setLName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {};
 
   return (
     <div className="overflow-hidden py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
@@ -48,7 +22,7 @@ export default function Contact() {
         <div className="mt-12">
           <form
             action="#"
-            method="POST"
+            onSubmit={handleSubmit}
             className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
           >
             <div>
@@ -61,8 +35,8 @@ export default function Contact() {
               <div className="mt-1">
                 <input
                   type="text"
-                  // value={FName}
-                  // onChange={(e) => setFirstName(e.target.value)}
+                  value={FName}
+                  onChange={(e) => setFName(e.target.value)}
                   name="first-name"
                   id="first-name"
                   autoComplete="given-name"
@@ -79,8 +53,8 @@ export default function Contact() {
               </label>
               <div className="mt-1">
                 <input
-                // value={FName}
-                // onChange={(e) => setFirstName(e.target.value)}
+                  value={LName}
+                  onChange={(e) => setLName(e.target.value)}
                   type="text"
                   name="last-name"
                   id="last-name"
@@ -98,6 +72,8 @@ export default function Contact() {
               </label>
               <div className="mt-1">
                 <input
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   id="email"
                   name="email"
                   type="email"
@@ -115,6 +91,8 @@ export default function Contact() {
               </label>
               <div className="mt-1">
                 <textarea
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   id="message"
                   name="message"
                   rows={4}

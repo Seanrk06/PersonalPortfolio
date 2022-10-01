@@ -29,7 +29,7 @@ function Navbar({ navigation }) {
                   </Popover.Button>
                 </div>
               </div>
-              <div className="hidden space-x-8  md:flex">
+              <div className="hidden space-x-8 font-semibold md:flex">
                 {navigation.map((item) => (
                   <a
                     key={item.name}

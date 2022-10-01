@@ -1,4 +1,3 @@
-
 function Photos() {
   return (
     <div className="mt-10 ">
@@ -31,7 +30,6 @@ function Photos() {
       </div>
     </div>
   );
-  // h-[21rem] :w-[20rem]
 }
 
 export default Photos;
