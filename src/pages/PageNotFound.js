@@ -25,7 +25,7 @@ export default function PageNotFound() {
                 </a>
                 <a
                   href="mailto:seanrk06@icloud.com"
-                  className="inline-flex items-center rounded-md border border-transparent bg-none outline outline-white px-4 py-2 text-sm font-medium text-white hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2"
+                  className="inline-flex items-center rounded-md border border-transparent bg-none outline outline-white outline-1 px-4 py-2 text-sm font-medium text-white hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2"
                 >
                   Contact Me
                 </a>

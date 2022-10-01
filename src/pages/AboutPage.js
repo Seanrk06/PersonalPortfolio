@@ -10,7 +10,7 @@ function AboutPage() {
     { name: "Projects", href: "/projects", current: false },
   ];
   return (
-    <div className="lg:grid lg:h-fit lg:place-items-center">
+    <div className="lg:grid mt-10 lg:h-fit lg:place-items-center">
       <div className="lg:w-3/4 bg-customGray outline-outlineGray outline">
         <Navbar navigation={navigation} />
         <Title
