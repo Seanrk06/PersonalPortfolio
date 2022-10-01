@@ -27,7 +27,7 @@ export default function PageNotFound() {
                   href="mailto:seanrk06@icloud.com"
                   className="inline-flex items-center rounded-md border border-transparent bg-none outline outline-white px-4 py-2 text-sm font-medium text-white hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2"
                 >
-                  Contact Support
+                  Contact Me
                 </a>
               </div>
             </div>
