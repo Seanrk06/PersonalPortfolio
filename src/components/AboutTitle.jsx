@@ -18,11 +18,10 @@ function AboutTitle(props) {
           programs to ull-stack web applications.
           <p className="pt-4">
             This is where I am now at the time of making this website (10/1/22)
-            which makes use of all sorts of web technologies I've learned over
-            the course of years. Even though I have come so far I plan to
+            which makes use of all sorts of web technologies I've learned. Even though I have come so far I plan to
             continue this journey and passion by applying myself in different
             technology-related avenues. Please reach out to me if you have any
-            questions or opportunities I am always happy to talk.
+            questions or opportunities as I am always happy to talk.
           </p>
         </p>
       </div>
