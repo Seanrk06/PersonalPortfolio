@@ -14,9 +14,9 @@ function AboutPage() {
   ];
   return (
     <div className="lg:grid lg:h-fit lg:place-items-center">
-      <div className="lg:w-2/3 bg-customGray outline-outlineGray outline h-screen">
+      <div className="lg:w-3/4 bg-customGray outline-outlineGray outline md:pl-10 md:pr-10 lg:pl-10 lg:pr-10 ">
         <Navbar navigation={navigation} />
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-10">
           <AboutTitle/>
           <AboutIcons/>
         </div>
