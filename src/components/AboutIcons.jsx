@@ -2,12 +2,12 @@ import React from "react";
 
 function AboutIcons() {
   return (
-    <div className="mt-10 text-gray-400 text-md font-semibold pl-10">
-      <p className="text-gray-400 pb-3">
+    <div className="mt-10 text-gray-400 text-md font-semibold pl-10 ">
+      <p className="text-gray-400 pb-3 hover:text-gray-500">
         <a href="https://instagram.com/seanrk06" className="float-left mr-3">
           <svg
             fill="currentColor"
-            className="h-6 w-6 hover:text-gray-500"
+            className="h-6 w-6"
             viewBox="0 0 24 24"
           >
             <path
@@ -17,9 +17,9 @@ function AboutIcons() {
             />
           </svg>
         </a>
-        Follow on Instagram
+        <a href="https://instagram.com/seanrk06" className="">Follow on Instagram</a>
       </p>
-      <p className="text-gray-400 pb-3">
+      <p className="text-gray-400 pb-3 hover:text-gray-500">
         <a href="https://www.linkedin.com/in/sean-klein-b98157235/" className="float-left mr-3">
           <svg
             className="h-6 w-6 hover:text-gray-500"
@@ -33,9 +33,9 @@ function AboutIcons() {
             />
           </svg>
         </a>
-        Follow on Linkedin
+        <a href="https://www.linkedin.com/in/sean-klein-b98157235/">Follow on Linkedin</a>
       </p>
-      <p className="text-gray-400 pb-3">
+      <p className="text-gray-400 pb-3 hover:text-gray-500">
         <a href="https://github.com/Seanrk06" className="float-left mr-3">
           <svg
             className="h-6 w-6 hover:text-gray-500"
@@ -50,9 +50,9 @@ function AboutIcons() {
           </svg>
          
         </a>
-        Follow on Github
+        <a href="https://github.com/Seanrk06">Follow on Github</a>
       </p>
-      <p className="text-gray-400 pb-3">
+      <p className="text-gray-400 pb-3 hover:text-gray-500">
         <a href="https://devpost.com/Seanrk06" className="float-left mr-3">
           <img
             className="hover:text-gray-500 h-6 w-6"
@@ -60,10 +60,10 @@ function AboutIcons() {
             alt=""
           />
         </a>
-        Follow on Devpost
+        <a href="https://devpost.com/Seanrk06">Follow on Devpost</a>
       </p>
       <hr className="mt-5 mb-5"></hr>
-      <p className="pb-10">
+      <p className="pb-10 hover:text-gray-500">
         <a href="mailto:seanrk06@icloud.com" className="float-left mr-3"> 
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ function AboutIcons() {
             />
           </svg>
         </a>
-        seanrk06@icloud.com
+        <a href="mailto:seanrk06@icloud.com">seanrk06@icloud.com</a>
       </p>
     </div>
   );
