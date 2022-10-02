@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-
+import React, { useState, useEffect} from "react";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 const CustomForm = ({
@@ -27,9 +26,9 @@ const CustomForm = ({
         MESSAGE: text,
         MERGE1: firstName,
         MERGE2: lastName,
-      });
-      
         
+      });
+    
   };
 
   const clearInputs = ()=>{
@@ -38,6 +37,10 @@ const CustomForm = ({
     setEmail("");
     setText("");
   }
+
+  useEffect(() => {
+    if(status === "success") clearInputs();
+}, )
 
   return (
     <div className="overflow-hidden py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
@@ -67,8 +70,7 @@ const CustomForm = ({
           {status === "success" &&
             (setSucessState(true),
             setLoadingState(false),
-            setErrorState(false),
-            clearInputs
+            setErrorState(false)
             )}
           <div>
             <label
