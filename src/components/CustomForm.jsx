@@ -28,11 +28,16 @@ const CustomForm = ({
         MERGE1: firstName,
         MERGE2: lastName,
       });
+      
+        
+  };
+
+  const clearInputs = ()=>{
     setFirstName("");
     setLastName("");
     setEmail("");
     setText("");
-  };
+  }
 
   return (
     <div className="overflow-hidden py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
@@ -62,7 +67,9 @@ const CustomForm = ({
           {status === "success" &&
             (setSucessState(true),
             setLoadingState(false),
-            setErrorState(false))}
+            setErrorState(false),
+            clearInputs
+            )}
           <div>
             <label
               htmlFor="first-name"
