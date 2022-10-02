@@ -8,21 +8,21 @@ function AboutTitle(props) {
           I'm Sean Klein and below is my story from start to finish.
         </h1>
         <p className="text-sm md:text-normal lg:text-lg mt-6 text-base text-zinc-400 leading-6 leading-relaxed lg:pb-32 md:pb-10">
-          I started programming in 2019 at 13 years old. When I first started, I
+          I started programming in 2019 at 13 years old. When I first began, I
           remember the feeling of amazement when I wrote my first program in
-          Python, and it returned to me, "Hello World." From then on my journey
-          has continued. I went from learning basic logic to the difference
-          between bools and ints. Learning expanded my world like I had not
-          experienced before. I quickly developed my repertoire of languages,
-          concepts, and skills to go from basic rock paper scissors programs to
-          full-stack web applications. 
+          Python which printed "Hello World." From then on my journey has
+          continued. I went from learning basic logic to the difference between
+          bools and ints. Programming was new experience for me that opened my
+          horizions and as a result I quickly developed. I learned languages,
+          concepts, and skills that took me from basic rock paper scissors
+          programs to ull-stack web applications.
           <p className="pt-4">
-          This is where I am now at the time of
-          making this website (10/1/22) which makes use of all sorts of web
-          technologies I've learned over the course of years. Even though I have
-          come so far I plan to continue this journey and passion by applying
-          myself in different technology-related avenues. Please reach out to me
-          if you have any questions or opportunities I am always happy to talk.
+            This is where I am now at the time of making this website (10/1/22)
+            which makes use of all sorts of web technologies I've learned over
+            the course of years. Even though I have come so far I plan to
+            continue this journey and passion by applying myself in different
+            technology-related avenues. Please reach out to me if you have any
+            questions or opportunities I am always happy to talk.
           </p>
         </p>
       </div>
