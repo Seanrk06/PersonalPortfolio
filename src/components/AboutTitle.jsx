@@ -15,13 +15,14 @@ function AboutTitle(props) {
           bools and ints. Programming was new experience for me that opened my
           horizions and as a result I quickly developed. I learned languages,
           concepts, and skills that took me from basic rock paper scissors
-          programs to ull-stack web applications.
+          programs to full-stack web applications.
           <p className="pt-4">
-            This is where I am now at the time of making this website (10/1/22)
-            which makes use of all sorts of web technologies I've learned. Even though I have come so far I plan to
-            continue this journey and passion by applying myself in different
-            technology-related avenues. Please reach out to me if you have any
-            questions or opportunities as I am always happy to talk.
+            This is where I am now at the time of making this website
+            which makes use of all sorts of web technologies I've learned. Even
+            though I have come so far I plan to continue this journey and
+            passion by applying myself in different technology-related avenues.
+            Please reach out to me if you have any questions or opportunities as
+            I am always happy to talk.
           </p>
         </p>
       </div>
