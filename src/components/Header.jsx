@@ -16,7 +16,7 @@ function Header() {
             }}
           />
         </h1>
-        <p className="text-base text-zinc-600 ml-5 mt-10 leading-6">
+        <p className="text-base text-zinc-400 ml-5 mt-10 leading-6">
           Hi I'm Sean, a junior in high school and self taught developer. I'm interested in any opportunity
           that allows me to expand my skills and learn. Please reach out if you
           have any questions!
