@@ -7,7 +7,7 @@ function AboutTitle(props) {
         <h1 className="text-3xl font-bold tracking-tight text-zinc-800 md:text-5xl lg:text-5xl text-white">
           I'm Sean Klein and below is my story from start to finish.
         </h1>
-        <p className="text-sm md:text-normal pt-4 lg:text-lg mt-6 text-base text-zinc-400 leading-6 leading-relaxed lg:pb-32 md:pb-10">
+        <p className="text-sm md:text-normal lg:text-lg mt-6 text-base text-zinc-400 leading-6 leading-relaxed lg:pb-32 md:pb-10">
           I started programming in 2019 at 13 years old. When I first started, I
           remember the feeling of amazement when I wrote my first program in
           Python, and it returned to me, "Hello World." From then on my journey
@@ -16,7 +16,7 @@ function AboutTitle(props) {
           experienced before. I quickly developed my repertoire of languages,
           concepts, and skills to go from basic rock paper scissors programs to
           full-stack web applications. 
-          <p className="">
+          <p className="pt-4">
           This is where I am now at the time of
           making this website (10/1/22) which makes use of all sorts of web
           technologies I've learned over the course of years. Even though I have
