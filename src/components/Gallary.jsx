@@ -90,19 +90,19 @@ export default function Gallary() {
                       <Popover.Panel className="z-10 transform shadow-lg">
                         <div className="bg-customGray text-white rounded-lg p-5 w-fit z-10">
                           <div className="text-center">
-                            <h1 className="md:text-4xl sm:text-md lg:text-4xl font-bold tracking-tight mb-5">
+                            <h1 className="md:text-4xl text-2xl lg:text-4xl font-bold tracking-tight mb-5">
                               {project.name}
                             </h1>
-                            <p className="md:mt-1 md:text-md lg:text-lg text-xs">
+                            <p className="md:mt-1 md:text-md lg:text-lg text-md">
                               {project.description}
                             </p>
-                            <p className="md:mt-1 md:text-md lg:text-lg text-xs">
+                            <p className="md:mt-1 md:text-md lg:text-lg text-md">
                               Source Code:{" "}
                               <a className="underline" href={project.code}>
                                 Here
                               </a>
                             </p>
-                            <p className="md:mt-1 md:text-md lg:text-lg text-xs">
+                            <p className="md:mt-1 md:text-md lg:text-lg text-md">
                               Competition Submission:{" "}
                               <a
                                 className="underline"
@@ -111,7 +111,7 @@ export default function Gallary() {
                                 Here
                               </a>
                             </p>
-                            <p className="md:mt-1 md:text-md lg:text-lg text-xs">
+                            <p className="md:mt-1 md:text-md lg:text-lg text-md">
                               Live Website:{" "}
                               <a className="underline" href={project.link}>
                                 Here

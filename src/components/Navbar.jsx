@@ -23,7 +23,7 @@ function Navbar({ navigation }) {
                     <h1 className='font-Roboto text-white text-3xl'>kk</h1>
                   </a> */}
                 <div className="-mr-2  items-center md:hidden">
-                  <Popover.Button className="absolute left-0 focus-ring-inset inline-flex items-center justify-center rounded-md bg-black p-2  text-zinc-800 shadow-lg shadow-zinc-800/5  focus:ring-2 focus:ring-inset focus:ring-cyan-600 backdrop-blur">
+                  <Popover.Button className="absolute left-0 focus-ring-inset inline-flex items-center justify-center rounded-md bg-zinc-800 p-2  text-zinc-800 shadow-lg shadow-zinc-800/5  focus:ring-2 focus:ring-inset focus:ring-cyan-600 backdrop-blur">
                     <span className="sr-only">Open main menu</span>
                     <Bars3Icon className="text-white h-8 w-8" aria-hidden="true" />
                   </Popover.Button>
