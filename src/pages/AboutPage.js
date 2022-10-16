@@ -20,8 +20,9 @@ function AboutPage() {
           <AboutTitle/>
           <AboutIcons/>
         </div>
+        <Footer />
       </div>
-      <Footer />
+      
     </div>
   );
 }

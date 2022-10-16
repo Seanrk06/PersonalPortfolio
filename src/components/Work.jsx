@@ -11,18 +11,29 @@ function Work() {
       </p>
       <ol className="mt-6 space-y-4">
         <li className="text-2xl text-white text-semibold text-center mb-5">
-          Counselor-in-Training (CIT)
+          Counselor in Training
+          <p className="text-lg leading-6 text-gray-500">- Helped supervise a group of kids for a Summer under the leadership of a head counselor.</p>
         </li>
         <li className="text-2xl text-white text-semibold text-center mb-5">
           Taco Bell Cashier
+          <p className="text-lg leading-6 text-gray-500">- Worked as a cashier for both the drive-through and front register.</p>
+          <p className="text-lg leading-6 text-gray-500">- Oversaw customers’ meals from the kitchen in order to make sure they received their complete order</p>
+        </li>
+        <li className="text-2xl text-white text-semibold text-center mb-5">
+          Neurology Practice Assistant
+          <p className="text-lg leading-6 text-gray-500">- Managed data relating to patient records in research involving migraine patients.</p>
+          <p className="text-lg leading-6 text-gray-500">- Oversaw patient-facing facilities and made sure equipment was maintained properly.</p>
+          <p className="text-lg leading-6 text-gray-500">- Cataloged medication for study subjects.</p>
         </li>
         <li className="text-2xl text-white text-semibold text-center mb-5">
           Busser At a Restaurant
+          <p className="text-lg leading-6 text-gray-500">- Addressed service-related needs of the customers in addition to team support of coworkers.</p>
         </li>
       </ol>
       <a
         class="mt-5 inline-flex w-full items-center justify-center rounded-md border border-transparent outline-3 outline py-3 text-base font-medium text-white shadow-sm button_slide slide_right "
-        href="/"
+        download="./assets/Resume/Resume for website.pdf"
+        href="./assets/Resume/Resume for website.pdf"
       >
         Download Resume
         <svg
