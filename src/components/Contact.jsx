@@ -13,7 +13,8 @@ export default function Contact() {
         <div className="mt-12">
           <form
             name="contact"
-            method="post"
+            method="POST"
+            data-netlify="true"
             className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             netlify-honeypot="bot-field"
           >
