@@ -15,8 +15,8 @@ export default function Contact() {
             name="contact"
             method="POST"
             data-netlify="true"
-            className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             netlify-honeypot="bot-field"
+            className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
           >
             <div>
               <label
@@ -29,7 +29,6 @@ export default function Contact() {
                 <input
                   type="text"
                   name="first-name"
-                  id="first-name"
                   autoComplete="given-name"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-teal-500 focus:ring-teal-500"
                 />
@@ -46,7 +45,6 @@ export default function Contact() {
                 <input
                   type="text"
                   name="last-name"
-                  id="last-name"
                   autoComplete="family-name"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-teal-500 focus:ring-teal-500"
                 />
@@ -61,7 +59,6 @@ export default function Contact() {
               </label>
               <div className="mt-1">
                 <input
-                  id="email"
                   name="email"
                   type="email"
                   autoComplete="email"
@@ -78,7 +75,6 @@ export default function Contact() {
               </label>
               <div className="mt-1">
                 <textarea
-                  id="message"
                   name="message"
                   rows={4}
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-teal-500 focus:ring-teal-500"
