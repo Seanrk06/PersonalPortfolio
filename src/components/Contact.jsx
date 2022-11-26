@@ -12,6 +12,7 @@ export default function Contact() {
         </div>
         <div className="mt-12">
           <form
+            netlify-honeypot="bot-field"
             name="contact"
             method="post"
             className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
@@ -30,6 +31,7 @@ export default function Contact() {
                   name="first-name"
                   autoComplete="given-name"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                  required
                 />
               </div>
             </div>
@@ -46,6 +48,7 @@ export default function Contact() {
                   name="last-name"
                   autoComplete="family-name"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                  required
                 />
               </div>
             </div>
@@ -62,6 +65,7 @@ export default function Contact() {
                   type="email"
                   autoComplete="email"
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                  required
                 />
               </div>
             </div>
@@ -77,6 +81,7 @@ export default function Contact() {
                   name="message"
                   rows={4}
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-teal-500 focus:ring-teal-500"
+                  required
                 />
               </div>
             </div>
