@@ -1,4 +1,3 @@
-
 export default function Contact() {
   return (
     <div className="overflow-hidden py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
@@ -13,11 +12,10 @@ export default function Contact() {
         </div>
         <div className="mt-12">
           <form
+            name="contact"
             method="post"
             className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
-            data-netlify="true" 
             netlify-honeypot="bot-field"
-            name="contact"
           >
             <div>
               <label
@@ -83,7 +81,6 @@ export default function Contact() {
                   name="message"
                   rows={4}
                   className="block w-full rounded-md border-gray-300 py-3 px-4 shadow-sm focus:border-teal-500 focus:ring-teal-500"
-                  defaultValue={""}
                 />
               </div>
             </div>
