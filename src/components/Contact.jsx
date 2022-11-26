@@ -1,10 +1,5 @@
-import { useState} from "react";
 
 export default function Contact() {
-  const [FName, setFName] = useState("");
-  const [LName, setLName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {};
 
@@ -37,8 +32,6 @@ export default function Contact() {
               <div className="mt-1">
                 <input
                   type="text"
-                  value={FName}
-                  onChange={(e) => setFName(e.target.value)}
                   name="first-name"
                   id="first-name"
                   autoComplete="given-name"
@@ -55,8 +48,6 @@ export default function Contact() {
               </label>
               <div className="mt-1">
                 <input
-                  value={LName}
-                  onChange={(e) => setLName(e.target.value)}
                   type="text"
                   name="last-name"
                   id="last-name"
@@ -74,8 +65,6 @@ export default function Contact() {
               </label>
               <div className="mt-1">
                 <input
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
                   id="email"
                   name="email"
                   type="email"
@@ -93,8 +82,6 @@ export default function Contact() {
               </label>
               <div className="mt-1">
                 <textarea
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
                   id="message"
                   name="message"
                   rows={4}

@@ -9,7 +9,7 @@ function Header() {
         <h1 className="text-4xl ml-5 mt-16 font-bold tracking-tight text-zinc-800 sm:text-5xl text-white">
           <Typewriter
             options={{
-              strings: ["Developer", "Student", "Designer"],
+              strings: ["Developer", "Student", "Designer", "Engineer"],
               autoStart: true,
               loop: true,
               delay: 200,

@@ -8,7 +8,7 @@ function AboutTitle(props) {
           I'm Sean Klein. Below is my journey so far.
         </h1>
         <p className="text-sm md:text-normal lg:text-lg mt-6 text-base text-zinc-400 leading-6 leading-relaxed lg:pb-32 md:pb-10">
-          I started programming in 2019 at 13 years old. I started with a basic
+          I started teaching myself programming in 2019 at 13 years old. I began with a basic
           "Hello World" program in Python and I still remember the feeling of
           amazement I had from it. Programming was a new exciting experience for
           me that opened my horizons and as a result, I quickly developed. I
