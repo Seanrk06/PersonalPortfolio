@@ -17,6 +17,7 @@ export default function Contact() {
             className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             data-netlify="true" 
             netlify-honeypot="bot-field"
+            name="contact"
           >
             <div>
               <label
