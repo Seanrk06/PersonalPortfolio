@@ -1,8 +1,5 @@
 
 export default function Contact() {
-
-  const handleSubmit = (e) => {};
-
   return (
     <div className="overflow-hidden py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
       <div className="relative mx-auto max-w-xl">
@@ -17,7 +14,6 @@ export default function Contact() {
         <div className="mt-12">
           <form
             method="post"
-            onSubmit={handleSubmit}
             className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             data-netlify="true" 
             netlify-honeypot="bot-field"
