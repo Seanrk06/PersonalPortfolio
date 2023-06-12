@@ -5,7 +5,7 @@ function AboutTitle(props) {
     <div className="">
       <div className="text-left mt-10 animation-fadein ml-10 pr-10">
         <h1 className="text-3xl font-bold tracking-tight text-zinc-800 md:text-5xl lg:text-5xl text-white">
-          Nice to meet you, I'm Sean,
+          Nice to meet you, I'm Sean.
         </h1>
         <p className="text-sm md:text-normal lg:text-lg mt-6 text-base text-zinc-400 leading-6 leading-relaxed lg:pb-32 md:pb-10">
             In 2019, at the age of 13, I embarked on a self-taught programming
