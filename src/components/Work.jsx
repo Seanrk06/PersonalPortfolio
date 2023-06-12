@@ -4,38 +4,44 @@ function Work() {
   return (
     <div className="pt-16 px-4 sm:px-6 lg:px-8 lg:pt-24 text-center">
       <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-        Work
+        Experience
       </h1>
       <p className="text-lg mt-4 leading-6 text-gray-500">
-        Below are some jobs I've had.
+        {/* A little about me */}
       </p>
       <ol className="mt-6 space-y-4">
         <li className="text-2xl text-white text-semibold text-center mb-5">
-          Counselor in Training
-          <p className="text-lg leading-6 text-gray-500">- Helped supervise a group of kids for a Summer under the leadership of a head counselor.</p>
+          Education
+          <p className="text-lg leading-6 text-gray-500">- Council Rock High School South</p>
+          <p className="text-lg leading-6 text-gray-500">- 3.7 Unweighted GPA</p>
+          <p className="text-lg leading-6 text-gray-500">- 10 AP Classes</p>
         </li>
         <li className="text-2xl text-white text-semibold text-center mb-5">
-          Taco Bell Cashier
-          <p className="text-lg leading-6 text-gray-500">- Worked as a cashier for both the drive-through and front register.</p>
-          <p className="text-lg leading-6 text-gray-500">- Oversaw customers’ meals from the kitchen in order to make sure they received their complete order</p>
+          Extra Curriculars
+          <p className="text-lg leading-6 text-gray-500">- Officer of national and regional board of Sigma Alpha Rho fraternity</p>
+          <p className="text-lg leading-6 text-gray-500">- Hackathon organizer for STEMist Education linked <a className="underline" href="https://joinstemist.org/">here</a></p>
+          <p className="text-lg leading-6 text-gray-500">- Technology Club Co-President linked <a className="underline" href="https://technologyclub.netlify.app/">here</a></p>
+          <p className="text-lg leading-6 text-gray-500">- NASA Hunch Insect Nano Lab Co-Leader linked <a className="underline" href="https://www.crsd.org/site/default.aspx?PageType=3&DomainID=487&ModuleInstanceID=64355&ViewID=6446EE88-D30C-497E-9316-3F8874B3E108&RenderLoc=0&FlexDataID=96645&PageID=4957">here</a></p>
+          <p className="text-lg leading-6 text-gray-500">- Computer Science Club Secretary</p>
+          <p className="text-lg leading-6 text-gray-500">- Rho Kappa, Business, and English Honors Society</p>
         </li>
         <li className="text-2xl text-white text-semibold text-center mb-5">
-          Neurology Practice Assistant
-          <p className="text-lg leading-6 text-gray-500">- Managed data relating to patient records in research involving migraine patients.</p>
-          <p className="text-lg leading-6 text-gray-500">- Oversaw patient-facing facilities and made sure equipment was maintained properly.</p>
-          <p className="text-lg leading-6 text-gray-500">- Cataloged medication for study subjects.</p>
+          Awards
+          <p className="text-lg leading-6 text-gray-500">- Recipient of the Widener Leadership Award</p>
+          <p className="text-lg leading-6 text-gray-500">- Interviewed and quoted by the Jewish Exponent</p>
+          <p className="text-lg leading-6 text-gray-500">- One of 300 students nationally selected to present a nano lab prototype for the International National Space Station at the Nasa Hunch Final Design Review in Houstan</p>
         </li>
         <li className="text-2xl text-white text-semibold text-center mb-5">
-          Busser At a Restaurant
-          <p className="text-lg leading-6 text-gray-500">- Addressed service-related needs of the customers in addition to team support of coworkers.</p>
+          Work
+          <p className="text-lg leading-6 text-gray-500">- Research Assistant at Abington Neurological Associates</p>
         </li>
       </ol>
       <a
         class="mt-5 inline-flex w-full items-center justify-center rounded-md border border-transparent outline-3 outline py-3 text-base font-medium text-white shadow-sm button_slide slide_right "
-        download="./assets/Resume/Resume for website.pdf"
-        href="./assets/Resume/Resume for website.pdf"
+        download="./Brief Resume.pdf"
+        href="./assets/Resume/Brief Resume.pdf"
       >
-        Download Resume
+        Download Full Resume
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

@@ -7,7 +7,7 @@ export default function Contact() {
             Contact Me
           </h2>
           <p className="mt-4 text-lg leading-6 text-gray-500">
-            I would love to hear from you, lets stay in touch.
+            
           </p>
         </div>
         <div className="mt-12">

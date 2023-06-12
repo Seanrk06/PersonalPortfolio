@@ -6,10 +6,19 @@ const project = [
     name: "Technology Club Website",
     description:
       "I built this website for a club I am the co-president whose goal is to increase student understanding of modern technology through discussion groups, demonstrations, and hands-on experiences. It was not submitted for a competition.",
-    submission: "",
+    submission: false,
     source: "./assets/Projects/TechnologyClub.png",
     code: "https://github.com/Seanrk06/CRSTechnologyClub",
     link: "https://technologyclub.netlify.app/",
+  },
+  {
+    name: "STEM Enrichment of Pennsylvania Website",
+    description:
+      "The STEM Enrichment of Pennsylvania or STEMEPA is an organization run independently by students driven to improve youth literacy in STEM through partnerships with local businesses and communities.",
+    source: "./assets/Projects/STEMEPA.png",
+    link: "https://stemepa.com/",
+    code: false,
+    submission: false,
   },
   {
     name: "RefugeForUkraine Website",
@@ -27,7 +36,7 @@ const project = [
     submission: "https://devpost.com/software/forget-me-not-93xuw2",
     code: "https://github.com/Seanrk06/ForgetMeNot",
     source: "./assets/Projects/ForgetMeNot.png",
-    link: "https://enigmatic-springs-17250.herokuapp.com/",
+    link: false,
   },
 
   {
@@ -35,10 +44,11 @@ const project = [
     description:
       "The Covid-19 pandemic has increased anxiety globally. Study Buddy, was made to help young adults cope with social anxiety. It is not hosted live.",
     source: "./assets/Projects/StuddyBuddy.png",
-    link: "",
+    link: false,
     code: "https://github.com/Kdm2633/yphacks",
     submission: "https://devpost.com/software/study-buddy-rit0sq",
   },
+  
   // More projects...
 ];
 
@@ -99,7 +109,8 @@ export default function Gallary() {
                             <p className="md:mt-1 md:text-md lg:text-lg text-md">
                               Source Code:{" "}
                               <a className="underline" href={project.code}>
-                                Here
+                                {/* If the particular thing has a possible input and not false then it will display that */}
+                              {project.code ? 'Here' : 'Not available'}
                               </a>
                             </p>
                             <p className="md:mt-1 md:text-md lg:text-lg text-md">
@@ -108,13 +119,13 @@ export default function Gallary() {
                                 className="underline"
                                 href={project.submission}
                               >
-                                Here
+                                {project.submission ? 'Here' : 'Not available'}
                               </a>
                             </p>
                             <p className="md:mt-1 md:text-md lg:text-lg text-md">
                               Live Website:{" "}
                               <a className="underline" href={project.link}>
-                                Here
+                              {project.link ? 'Here' : 'Not available'}
                               </a>
                             </p>
                           </div>
