@@ -34,12 +34,13 @@ function Work() {
         <li className="text-2xl text-white text-semibold text-center mb-5">
           Work
           <p className="text-lg leading-6 text-gray-500">- Research Assistant at Abington Neurological Associates</p>
+          <p className="text-lg leading-6 text-gray-500">- Engineering Intern at Action Manufacturing Company</p>
         </li>
       </ol>
       <a
         class="mt-5 inline-flex w-full items-center justify-center rounded-md border border-transparent outline-3 outline py-3 text-base font-medium text-white shadow-sm button_slide slide_right "
-        download="./Brief Resume.pdf"
-        href="./assets/Resume/Brief Resume.pdf"
+        download="./Resume 10_12_23.docx.pdf"
+        href="./assets/Resume/Resume 10_12_23.docx.pdf"
       >
         Download Full Resume
         <svg
