@@ -40,7 +40,7 @@ function Work() {
       <a
         class="mt-5 inline-flex w-full items-center justify-center rounded-md border border-transparent outline-3 outline py-3 text-base font-medium text-white shadow-sm button_slide slide_right "
         download="./Resume 7_9_24.pdf"
-        href="./assets/Resume/Resume 10_12_23.docx.pdf"
+        href="./assets/Resume/Resume 7_9_24.pdf"
       >
         Download Full Resume
         <svg
