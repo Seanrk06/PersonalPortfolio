@@ -12,24 +12,24 @@ function Work() {
       <ol className="mt-6 space-y-4">
         <li className="text-2xl text-white text-semibold text-center mb-5">
           Education
-          <p className="text-lg leading-6 text-gray-500">- Council Rock High School South</p>
-          <p className="text-lg leading-6 text-gray-500">- 3.7 Unweighted GPA</p>
-          <p className="text-lg leading-6 text-gray-500">- 10 AP Classes</p>
+          <p className="text-lg leading-6 text-gray-500">- Purdue University</p>
+{/*           <p className="text-lg leading-6 text-gray-500">- 3.7 Unweighted GPA</p>  */}
+{/*           <p className="text-lg leading-6 text-gray-500">- 10 AP Classes</p> */}
         </li>
         <li className="text-2xl text-white text-semibold text-center mb-5">
           Extra Curriculars
-          <p className="text-lg leading-6 text-gray-500">- Officer of national and regional board of Sigma Alpha Rho fraternity</p>
+{/*           <p className="text-lg leading-6 text-gray-500">- Officer of national and regional board of Sigma Alpha Rho fraternity</p>
           <p className="text-lg leading-6 text-gray-500">- Hackathon organizer for STEMist Education linked <a className="underline" href="https://joinstemist.org/">here</a></p>
           <p className="text-lg leading-6 text-gray-500">- Technology Club Co-President linked <a className="underline" href="https://technologyclub.netlify.app/">here</a></p>
           <p className="text-lg leading-6 text-gray-500">- NASA Hunch Insect Nano Lab Co-Leader linked <a className="underline" href="https://www.crsd.org/site/default.aspx?PageType=3&DomainID=487&ModuleInstanceID=64355&ViewID=6446EE88-D30C-497E-9316-3F8874B3E108&RenderLoc=0&FlexDataID=96645&PageID=4957">here</a></p>
           <p className="text-lg leading-6 text-gray-500">- Computer Science Club Secretary</p>
-          <p className="text-lg leading-6 text-gray-500">- Rho Kappa, Business, and English Honors Society</p>
+          <p className="text-lg leading-6 text-gray-500">- Rho Kappa, Business, and English Honors Society</p> */}
         </li>
         <li className="text-2xl text-white text-semibold text-center mb-5">
           Awards
-          <p className="text-lg leading-6 text-gray-500">- Recipient of the Widener Leadership Award</p>
+{/*           <p className="text-lg leading-6 text-gray-500">- Recipient of the Widener Leadership Award</p>
           <p className="text-lg leading-6 text-gray-500">- Interviewed and quoted by the Jewish Exponent</p>
-          <p className="text-lg leading-6 text-gray-500">- One of 300 students nationally selected to present a nano lab prototype for the International National Space Station at the Nasa Hunch Final Design Review in Houstan</p>
+          <p className="text-lg leading-6 text-gray-500">- One of 300 students nationally selected to present a nano lab prototype for the International National Space Station at the Nasa Hunch Final Design Review in Houstan</p> */}
         </li>
         <li className="text-2xl text-white text-semibold text-center mb-5">
           Work
@@ -39,7 +39,7 @@ function Work() {
       </ol>
       <a
         class="mt-5 inline-flex w-full items-center justify-center rounded-md border border-transparent outline-3 outline py-3 text-base font-medium text-white shadow-sm button_slide slide_right "
-        download="./Resume 10_12_23.docx.pdf"
+        download="./Resume 7_9_24.pdf"
         href="./assets/Resume/Resume 10_12_23.docx.pdf"
       >
         Download Full Resume
