@@ -12,13 +12,17 @@ function Work() {
       <ol className="mt-6 space-y-4">
         <li className="text-2xl text-white text-semibold text-center mb-5">
           Education
-          <p className="text-lg leading-6 text-gray-500">- Purdue University</p>
-{/*           <p className="text-lg leading-6 text-gray-500">- 3.7 Unweighted GPA</p>  */}
-{/*           <p className="text-lg leading-6 text-gray-500">- 10 AP Classes</p> */}
+          <p className="text-lg leading-6 text-gray-500">
+            Purdue University, Expected Graduation: May 2028
+          </p>
+          <p className="text-lg leading-6 text-gray-500">
+            Council Rock South, Graduated: June 2024
+          </p>
+          <p className="text-lg leading-6 text-gray-500">- top 10% of class</p>
         </li>
         <li className="text-2xl text-white text-semibold text-center mb-5">
-          Extra Curriculars
-{/*           <p className="text-lg leading-6 text-gray-500">- Officer of national and regional board of Sigma Alpha Rho fraternity</p>
+          {/* Extra Curriculars */}
+          {/*           <p className="text-lg leading-6 text-gray-500">- Officer of national and regional board of Sigma Alpha Rho fraternity</p>
           <p className="text-lg leading-6 text-gray-500">- Hackathon organizer for STEMist Education linked <a className="underline" href="https://joinstemist.org/">here</a></p>
           <p className="text-lg leading-6 text-gray-500">- Technology Club Co-President linked <a className="underline" href="https://technologyclub.netlify.app/">here</a></p>
           <p className="text-lg leading-6 text-gray-500">- NASA Hunch Insect Nano Lab Co-Leader linked <a className="underline" href="https://www.crsd.org/site/default.aspx?PageType=3&DomainID=487&ModuleInstanceID=64355&ViewID=6446EE88-D30C-497E-9316-3F8874B3E108&RenderLoc=0&FlexDataID=96645&PageID=4957">here</a></p>
@@ -27,14 +31,26 @@ function Work() {
         </li>
         <li className="text-2xl text-white text-semibold text-center mb-5">
           Awards
-{/*           <p className="text-lg leading-6 text-gray-500">- Recipient of the Widener Leadership Award</p>
-          <p className="text-lg leading-6 text-gray-500">- Interviewed and quoted by the Jewish Exponent</p>
-          <p className="text-lg leading-6 text-gray-500">- One of 300 students nationally selected to present a nano lab prototype for the International National Space Station at the Nasa Hunch Final Design Review in Houstan</p> */}
+          <p className="text-lg leading-6 text-gray-500">
+            - Recipient of the Widener Leadership Award
+          </p>
+          <p className="text-lg leading-6 text-gray-500">
+            - Interviewed and quoted by the Jewish Exponent
+          </p>
+          <p className="text-lg leading-6 text-gray-500">
+            - One of 300 students nationally selected to present a nano lab
+            prototype for the International National Space Station at the Nasa
+            Hunch Final Design Review in Houstan
+          </p>
         </li>
         <li className="text-2xl text-white text-semibold text-center mb-5">
           Work
-          <p className="text-lg leading-6 text-gray-500">- Research Assistant at Abington Neurological Associates</p>
-          <p className="text-lg leading-6 text-gray-500">- Engineering Intern at Action Manufacturing Company</p>
+          <p className="text-lg leading-6 text-gray-500">
+            - Research Assistant at Abington Neurological Associates
+          </p>
+          <p className="text-lg leading-6 text-gray-500">
+            - Engineering Intern at Action Manufacturing Company
+          </p>
         </li>
       </ol>
       <a

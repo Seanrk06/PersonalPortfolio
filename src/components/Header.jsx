@@ -17,9 +17,15 @@ function Header() {
           />
         </h1>
         <p className="text-base text-gray-500 ml-5 mt-10 leading-6">
-          Hi I'm Sean, a junior in high school and self taught developer. I'm interested in any opportunity
-          that allows me to expand my skills and learn. Please reach out if you
-          have any questions!
+          Hi, I'm Sean, a current freshman at Purdue University and a
+          self-taught developer specializing in website design. I'm passionate
+          about expanding my skills and learning through real-world projects. If
+          you're looking for a dedicated and eager web designer to bring your
+          ideas to life, I'd love to help! Feel free to reach out with any
+          questions or project ideas.
+        </p>
+        <p className="text-base text-gray-500 ml-5 mt-5 leading-6">
+          Looking forward to collaborating with you!
         </p>
 
         <IconRow />

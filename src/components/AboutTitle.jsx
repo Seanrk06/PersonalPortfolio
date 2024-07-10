@@ -8,7 +8,7 @@ function AboutTitle(props) {
           Nice to meet you, I'm Sean.
         </h1>
         <p className="text-sm md:text-normal lg:text-lg mt-6 text-base text-zinc-400 leading-6 leading-relaxed lg:pb-32 md:pb-10">
-            In 2019, at the age of 13, I embarked on a self-taught programming
+          In 2019, at the age of 13, I embarked on a self-taught programming
           journey. It all started with a simple "Hello World" program in Python,
           and I can still recall the sheer amazement it brought me. Programming
           opened a new world of excitement, expanding my horizons and propelling

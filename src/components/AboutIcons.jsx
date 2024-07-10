@@ -3,7 +3,7 @@ import React from "react";
 function AboutIcons() {
   return (
     <div className="mt-10 text-gray-400 text-md font-semibold pl-10 ">
-      <p className="text-gray-400 pb-3 hover:text-gray-500">
+      {/* <p className="text-gray-400 pb-3 hover:text-gray-500">
         <a href="https://instagram.com/seanrk06" className="float-left mr-3">
           <svg
             fill="currentColor"
@@ -18,7 +18,7 @@ function AboutIcons() {
           </svg>
         </a>
         <a href="https://instagram.com/seanrk06" className="">Follow on Instagram</a>
-      </p>
+      </p> */}
       <p className="text-gray-400 pb-3 hover:text-gray-500">
         <a href="https://www.linkedin.com/in/sean-klein-b98157235/" className="float-left mr-3">
           <svg
